@@ -5,4 +5,8 @@ edition = "2024"
 
 [dependencies]
 axum = "0.8.8"
+dotenv = "0.15.0"
+r2d2 = "0.8.10"
+diesel = { version = "2.3.6", features = ["postgres", "r2d2"] }
+serde = { version = "1.0.228", features = ["derive"] }
 tokio = { version = "1.49.0", features = ["full"] }

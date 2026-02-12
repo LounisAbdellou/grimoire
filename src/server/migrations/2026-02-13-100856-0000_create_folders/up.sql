@@ -1,0 +1,4 @@
+CREATE TABLE folders (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL
+);
