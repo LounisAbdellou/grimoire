@@ -1,5 +1,5 @@
 use crate::components::navbar::Navbar;
-use crate::views::home::Home;
+use crate::views::library::Library;
 use dioxus::prelude::*;
 
 #[derive(Debug, Clone, Routable, PartialEq)]
@@ -7,5 +7,5 @@ use dioxus::prelude::*;
 pub enum Route {
     #[layout(Navbar)]
     #[route("/")]
-    Home {},
+    Library {},
 }

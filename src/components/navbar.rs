@@ -6,9 +6,10 @@ pub fn Navbar() -> Element {
     rsx! {
         div {
             id: "navbar",
-            Link {
-                to: Route::Home {},
-                "Home"
+            class: "px-8 py-4",
+            h1 {
+                class: "text-xl primary-content",
+                "Library"
             }
         }
 

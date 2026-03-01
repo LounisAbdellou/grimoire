@@ -1,9 +1,5 @@
-use crate::router::Route;
 use dioxus::prelude::*;
-
-mod components;
-mod router;
-mod views;
+use grimoire::router::Route;
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
 const MAIN_CSS: Asset = asset!("/assets/main.css");
