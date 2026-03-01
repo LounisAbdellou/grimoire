@@ -7,6 +7,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+daisy_rsx = "0.1.54"
 dioxus = { version = "0.7.1", features = ["router", "fullstack"] }
 
 [features]
